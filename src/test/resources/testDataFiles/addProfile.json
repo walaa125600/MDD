@@ -1,0 +1,18 @@
+[
+  {
+    "testCaseTitle": "Filter with Type",
+    "expectedMassage": "Waiting For Approval",
+    "name": "Profile",
+    "description": "Profile that contains everything",
+    "authorization": {
+      "configurationManagerActions": ["Create/Import Configurations", "Modify Configurations"],
+      "duplicatesManagerActions": ["Message Comments", "Message View"],
+      "availableBics": ["PTSABEMM"],
+      "availableUnits": ["None"],
+      "availableCategories": ["1: Customer Payments", "2: Payments, Cash Mgmt"]
+    },
+    "roles": {
+      "roles": ["Run Administrator (full access)", "Run Users Management (Limited access)"]
+    }
+  }
+]

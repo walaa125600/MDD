@@ -1,0 +1,13 @@
+[
+  {
+    "testCaseTitle": "Check the checksum, when it is identical to another one.",
+    "expectedMassage": "Waiting For Approval",
+    "fileName": "MT103.txt",
+    "source": "SAA_WIN_10.32.6.71",
+    "finMessage": {
+      "reference": "",
+      "detectionStatus": "Full Duplicate"
+    },
+    "status": "Full Duplicate"
+  }
+]

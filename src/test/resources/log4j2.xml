@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout
+                    pattern="[%-5level] %d{yyyyMMdd-HHmmss} [%t] %M- %msg%n" />
+        </Console>
+        <RollingFile name="rollingfile" fileName="test-output/logs/SafeWatchFiltering.log"
+                     filePattern="test-output/logs/SafeWatchFiltering-%d{yyyyMMddHHmmss}.log">
+            <PatternLayout>
+                <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss} [%t] %M- %msg%n
+                </pattern>
+            </PatternLayout>
+            <Policies>
+                <OnStartupTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="console" level="INFO"/>
+            <AppenderRef ref="rollingfile" level="INFO"/>
+        </Root>
+
+    </Loggers>
+</Configuration>

@@ -1,0 +1,145 @@
+selenium-full-admin-right,Administration,Archive Viewer,
+selenium-full-admin-right,Administration,Audit Manager,
+selenium-full-admin-right,Administration,Event Viewer,
+selenium-full-admin-right,Administration,Group Manager,ALL
+selenium-full-admin-right,Administration,Operator Manager,ALL
+selenium-full-admin-right,Administration,Profile Manager,ALL
+selenium-full-admin-right,Administration,Report Manager,ALL
+selenium-full-admin-right,Administration,Zone Manager,ALL
+
+selenium-full-right-profile,Administration,Archive Viewer,
+selenium-full-right-profile,Administration,Audit Manager,
+selenium-full-right-profile,Administration,Event Viewer,
+selenium-full-right-profile,Administration,Group Manager,ALL
+selenium-full-right-profile,Administration,Operator Manager,ALL
+selenium-full-right-profile,Administration,Profile Manager,ALL
+selenium-full-right-profile,Administration,Report Manager,ALL
+selenium-full-right-profile,Administration,Zone Manager,ALL
+selenium-full-right-profile,SWS,Advanced Settings,ALL
+selenium-full-right-profile,SWS,Approval,ALL
+selenium-full-right-profile,SWS,Approval Configuration,ALL
+selenium-full-right-profile,SWS,Approval Groups,ALL
+selenium-full-right-profile,SWS,Archive Management,ALL
+selenium-full-right-profile,SWS,Archive Viewer,ALL
+selenium-full-right-profile,SWS,Batch List Management,
+selenium-full-right-profile,SWS,Customer Card,ALL
+selenium-full-right-profile,SWS,DB Manager,ALL
+selenium-full-right-profile,SWS,DB Scanner,ALL
+selenium-full-right-profile,SWS,Detection Manager,ALL
+selenium-full-right-profile,SWS,DowJonesSettings,ALL
+selenium-full-right-profile,SWS,en.Reporting Scanner,ALL
+selenium-full-right-profile,SWS,Event Viewer,
+selenium-full-right-profile,SWS,File Scanner,ALL
+selenium-full-right-profile,SWS,Format Manager,ALL
+selenium-full-right-profile,SWS,Good Guys Migration,
+selenium-full-right-profile,SWS,GoodGuyExplorer,ALL
+selenium-full-right-profile,SWS,ISO20022 Format Configuration,ALL
+selenium-full-right-profile,SWS,ISO20022 Schema Configuration,ALL
+selenium-full-right-profile,SWS,ISO20022-Module,ALL
+selenium-full-right-profile,SWS,License Manager,
+selenium-full-right-profile,SWS,List Manager,ALL
+selenium-full-right-profile,SWS,ListExplorer,ALL
+selenium-full-right-profile,SWS,ListSetManager,ALL
+selenium-full-right-profile,SWS,MQ Connector,ALL
+selenium-full-right-profile,SWS,MQ Manager,ALL
+selenium-full-right-profile,SWS,Name Checker,ALL
+selenium-full-right-profile,SWS,Repeat Manager,ALL
+selenium-full-right-profile,SWS,Replay,ALL
+selenium-full-right-profile,SWS,Report Manager,ALL
+selenium-full-right-profile,SWS,SAA OFCA Station,ALL
+selenium-full-right-profile,SWS,SAA OFCS Detect,ALL
+selenium-full-right-profile,SWS,SAA OFCS Monitor,ALL
+selenium-full-right-profile,SWS,SafeTrade,ALL
+selenium-full-right-profile,SWS,SafeWatch API,ALL
+selenium-full-right-profile,SWS,Scan Manager,ALL
+selenium-full-right-profile,SWS,SWIFT Manager,ALL
+selenium-full-right-profile,SWS,SWP Name Checker,ALL
+selenium-full-right-profile,SWS,WorldCheckSettings,ALL
+selenium-full-right-profile,RPTSRV,,
+
+Test-Profile,Administration,Archive Viewer,
+Test-Profile,Administration,Audit Manager,
+Test-Profile,Administration,Event Viewer,
+Test-Profile,Administration,Group Manager,ALL
+Test-Profile,Administration,Operator Manager,ALL
+Test-Profile,Administration,Profile Manager,ALL
+Test-Profile,Administration,Report Manager,ALL
+Test-Profile,Administration,Zone Manager,ALL
+Test-Profile,SWS,en.Reporting Scanner,
+Test-Profile,SWS,Advanced Settings,ALL
+Test-Profile,SWS,Event Viewer,
+Test-Profile,SWS,DB Scanner,
+Test-Profile,SWS,Detection Manager,ALL
+Test-Profile,SWS,DowJonesSettings,ALL
+Test-Profile,SWS,Batch List Management,
+Test-Profile,SWS,File Scanner,ALL
+Test-Profile,SWS,Format Manager,ALL
+Test-Profile,SWS,Good Guys Migration,
+Test-Profile,SWS,GoodGuyExplorer,ALL
+Test-Profile,SWS,ISO20022 Format Configuration,ALL
+Test-Profile,SWS,ISO20022 Schema Configuration,ALL
+Test-Profile,SWS,ISO20022-Module,
+Test-Profile,SWS,Scan Manager,ALL
+Test-Profile,SWS,SWIFT Manager,ALL
+Test-Profile,SWS,SWP Name Checker,
+Test-Profile,SWS,Name Checker,ALL
+Test-Profile,SWS,License Manager,
+Test-Profile,SWS,List Manager,ALL
+Test-Profile,SWS,ListExplorer,ALL
+Test-Profile,SWS,ListSetManager,ALL
+Test-Profile-SWS,SWS,en.Reporting Scanner,
+Test-Profile-SWS,SWS,Advanced Settings,ALL
+Test-Profile-SWS,SWS,Detection Manager,ALL
+Test-Profile-SWS,SWS,Batch List Management,
+Test-Profile-SWS,SWS,File Scanner,ALL
+Test-Profile-SWS,SWS,Format Manager,ALL
+Test-Profile-SWS,SWS,Scan Manager,ALL
+Test-Profile-SWS,SWS,SWIFT Manager,ALL
+Test-Profile-SWS,SWS,SWP Name Checker,
+Test-Profile-SWS,SWS,Name Checker,ALL
+Test-Profile-SWS,SWS,List Manager,ALL
+Test-Profile-SWS,SWS,ListExplorer,ALL
+Test-Profile-SWS,SWS,ListSetManager,ALL
+
+ProfileReport,SWS,Detection Manager,ALL
+
+
+default-profile,SWS,Advanced Settings,ALL
+default-profile,SWS,Approval,ALL
+default-profile,SWS,Approval Configuration,ALL
+default-profile,SWS,Approval Groups,ALL
+default-profile,SWS,Archive Management,ALL
+default-profile,SWS,Archive Viewer,ALL
+default-profile,SWS,Batch List Management,
+default-profile,SWS,Customer Card,ALL
+default-profile,SWS,DB Manager,ALL
+default-profile,SWS,DB Scanner,ALL
+default-profile,SWS,Detection Manager,ALL
+default-profile,SWS,DowJonesSettings,ALL
+default-profile,SWS,en.Reporting Scanner,ALL
+default-profile,SWS,Event Viewer,
+default-profile,SWS,File Scanner,ALL
+default-profile,SWS,Format Manager,ALL
+default-profile,SWS,Good Guys Migration,
+default-profile,SWS,GoodGuyExplorer,ALL
+default-profile,SWS,ISO20022 Format Configuration,ALL
+default-profile,SWS,ISO20022 Schema Configuration,ALL
+default-profile,SWS,ISO20022-Module,ALL
+default-profile,SWS,License Manager,
+default-profile,SWS,List Manager,ALL
+default-profile,SWS,ListExplorer,ALL
+default-profile,SWS,ListSetManager,ALL
+default-profile,SWS,MQ Connector,ALL
+default-profile,SWS,MQ Manager,ALL
+default-profile,SWS,Name Checker,ALL
+default-profile,SWS,Repeat Manager,ALL
+default-profile,SWS,Replay,ALL
+default-profile,SWS,Report Manager,ALL
+default-profile,SWS,SAA OFCA Station,ALL
+default-profile,SWS,SAA OFCS Detect,ALL
+default-profile,SWS,SAA OFCS Monitor,ALL
+default-profile,SWS,SafeTrade,ALL
+default-profile,SWS,SafeWatch API,ALL
+default-profile,SWS,Scan Manager,ALL
+default-profile,SWS,SWIFT Manager,ALL
+default-profile,SWS,SWP Name Checker,ALL

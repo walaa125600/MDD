@@ -1,0 +1,38 @@
+[
+  {
+    "testCaseTitle": "Filter with Type",
+    "expectedMassage": "Waiting For Approval",
+    "filtrationCriteria": "Type",
+    "filtrationValue": "MT"
+  },
+  {
+    "testCaseTitle": "Filter with Message Type",
+    "expectedMassage": "Waiting For Approval",
+    "filtrationCriteria": "Message Type",
+    "filtrationValue": "102"
+  },
+  {
+    "testCaseTitle": "Filter with Version",
+    "expectedMassage": "Waiting For Approval",
+    "filtrationCriteria": "Version",
+    "filtrationValue": "2305"
+  },
+  {
+    "testCaseTitle": "Filter with Service Name",
+    "expectedMassage": "Waiting For Approval",
+    "filtrationCriteria": "Service Name",
+    "filtrationValue": "swift.finplus"
+  },
+  {
+    "testCaseTitle": "Filter with Usage",
+    "expectedMassage": "Waiting For Approval",
+    "filtrationCriteria": "Usage",
+    "filtrationValue": "swift.cbprplus.01"
+  },
+  {
+    "testCaseTitle": "Filter with Status",
+    "expectedMassage": "Waiting For Approval",
+    "filtrationCriteria": "Status",
+    "filtrationValue": "PARSED"
+  }
+]
