@@ -63,7 +63,7 @@ public class Controls {
 
     public static void setCheckboxValue(WebDriver driver, By alternateBy, By by, boolean toCheck) {
         WebElement checkboxInput = getWebElement(driver, by);
-        boolean needToBeChanged = checkboxInput.getAttribute("aria-checked").equalsIgnoreCase("true") != toCheck;
+        boolean needToBeChanged = checkboxInput.getAttribute("class").contains("pi-check") != toCheck;
         if (needToBeChanged) {
             WebElement checkbox = getWebElement(driver, alternateBy);
             checkbox.click();
@@ -71,7 +71,7 @@ public class Controls {
     }
 
     public static void setCheckboxValue(WebDriver driver, String parentId, boolean toCheck) {
-        setCheckboxValue(driver, By.id(parentId), By.id(parentId + "_input"), toCheck);
+        setCheckboxValue(driver, By.xpath(parentId), By.xpath(parentId + "//span"), toCheck);
     }
 
     public static void setSelectByVisibleText(WebDriver driver, By by, String value) {

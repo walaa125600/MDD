@@ -1,0 +1,14 @@
+[
+  {
+    "testCaseTitle": "Verify that selecting Auto-Generate password, will create a password randomly, a pop up with the auto generate password will display and an email will be sent with the password",
+    "authenticationMethod": "TOTP",
+    "username": "User4",
+    "fullUserName": "User1",
+    "userEmail": "User1@gmail.com",
+    "selectProfile": "SUPER ADMIN",
+    "expirationDate": "30",
+    "selectAuthenticator": "LSA",
+    "autoGenerate": true,
+    "expectedMassage": "User Has Been Created Successfully,User with the same username already exists displays"
+  }
+]

@@ -39,6 +39,7 @@ public class AdminProfileTest extends BaseTest {
                     , new Object() {
                     }.getClass().getEnclosingMethod().getName());
         }
+
     }
 
     @BeforeMethod

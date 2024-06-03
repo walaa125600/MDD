@@ -1,0 +1,14 @@
+[
+  {
+    "testCaseTitle": "Verify that created user will directly login using the entered password if the created user had the authentication method set to MDD MDD use can login to the system ",
+    "authenticationMethod": "MDD",
+    "username": "Test5",
+    "fullUserName": "User1",
+    "userEmail": "User1@gmail.com",
+    "selectProfile": "SUPER ADMIN",
+    "selectAuthenticator": "LSA",
+    "password": "Zxcvbnm@123",
+    "confirmPassword": "Zxcvbnm@123",
+    "expectedMassage": "User Has Been Created Successfully"
+  }
+]

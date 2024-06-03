@@ -1,0 +1,118 @@
+[
+  {
+    "testCaseTitle": "Verify that Users are getting created",
+    "authenticationMethod": "TOTP",
+    "username": "User4",
+    "fullUserName": "User1",
+    "userEmail": "User1@gmail.com",
+    "selectProfile": "SUPER ADMIN",
+    "expirationDate": "30",
+    "selectAuthenticator": "LSA",
+    "password": "Zxcvbnm@123",
+    "confirmPassword": "Zxcvbnm@123",
+    "expectedMassage": "User Has Been Created Successfully"
+  },
+  {
+    "testCaseTitle": "Verify that username is required while add new user",
+    "authenticationMethod": "TOTP",
+    "fullUserName": "User1",
+    "userEmail": "User1@gmail.com",
+    "selectProfile": "SUPER ADMIN",
+    "expirationDate": "30",
+    "selectAuthenticator": "LSA",
+    "password": "Zxcvbnm@123",
+    "confirmPassword": "Zxcvbnm@123",
+    "expectedMassage": "Username Is Required"
+  },
+  {  "testCaseTitle": "Verify that profile is required while add New User",
+    "authenticationMethod": "TOTP",
+    "username": "User1",
+    "fullUserName": "User1",
+    "userEmail": "User1@gmail.com",
+    "expirationDate": "30",
+    "selectAuthenticator": "LSA",
+    "password": "Zxcvbnm@123",
+    "confirmPassword": "Zxcvbnm@123",
+    "expectedMassage": "Profile Is Required"
+  },
+  {
+    "testCaseTitle": "Verify that password is required while add new user",
+    "authenticationMethod": "TOTP",
+    "username": "User1",
+    "fullUserName": "User1",
+    "userEmail": "User1@gmail.com",
+    "selectProfile": "SUPER ADMIN",
+    "expirationDate": "30",
+    "selectAuthenticator": "LSA",
+    "expectedMassage": "Password Is Required"
+  },
+  {
+    "testCaseTitle": "Verify that email is required while add new user",
+    "authenticationMethod": "TOTP",
+    "username": "User1",
+    "fullUserName": "User1",
+    "selectProfile": "SUPER ADMIN",
+    "expirationDate": "30",
+    "selectAuthenticator": "LSA",
+    "password": "Zxcvbnm@123",
+    "confirmPassword": "Zxcvbnm@123",
+    "expectedMassage": "Email Is Required"
+  },
+  {
+    "testCaseTitle": "Verify that There was a mismatch between the passwords you entered\" message will display while creating a user with mismatch password",
+    "authenticationMethod": "TOTP",
+    "username": "User1",
+    "fullUserName": "User1",
+    "userEmail": "User1@gmail.com",
+    "selectProfile": "SUPER ADMIN",
+    "expirationDate": "30",
+    "selectAuthenticator": "LSA",
+    "password": "Zxcvbnm@123",
+    "confirmPassword": "Zxcvbnm@456",
+    "expectedMassage": "There was a mismatch between the passwords you entered"
+  },
+  {
+    "testCaseTitle": "Verify that Email Format Is Incorrect",
+    "authenticationMethod": "TOTP",
+    "username": "User3",
+    "fullUserName": "User3",
+    "userEmail": "invalid",
+    "selectProfile": "SUPER ADMIN",
+    "expirationDate": "30",
+    "selectAuthenticator": "LSA",
+    "password": "Zxcvbnm@123",
+    "confirmPassword": "Zxcvbnm@123",
+    "expectedMassage": "Email Format Is Incorrect"
+  },
+
+
+  {
+    "testCaseTitle": "Verify that username does not accept spaces",
+    "authenticationMethod": "TOTP",
+    "username": "User4 Walaa",
+    "fullUserName": "User1",
+    "userEmail": "User1@gmail.com",
+    "selectProfile": "SUPER ADMIN",
+    "expirationDate": "30",
+    "selectAuthenticator": "LSA",
+    "password": "Zxcvbnm@123",
+    "confirmPassword": "Zxcvbnm@123",
+    "expectedMassage": "User Name Must Not Contain Spaces"
+  },
+  {
+    "testCaseTitle": "Verify that Full Username Accept Spaces",
+    "authenticationMethod": "TOTP",
+    "username": "User4",
+    "fullUserName": "User1 WalaaNoufal",
+    "userEmail": "User1@gmail.com",
+    "selectProfile": "SUPER ADMIN",
+    "expirationDate": "30",
+    "selectAuthenticator": "LSA",
+    "password": "Zxcvbnm@123",
+    "confirmPassword": "Zxcvbnm@123",
+    "expectedMassage": "User Has Been Created Successfully"
+  }
+
+
+
+]

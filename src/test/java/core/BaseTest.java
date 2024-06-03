@@ -33,7 +33,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
 
@@ -100,7 +99,7 @@ public class BaseTest {
     }
 
     @Parameters({"browserType"})
-    @BeforeClass(description = "Setting up selenium web driver before each class run", alwaysRun = true)
+    @BeforeSuite(description = "Setting up selenium web driver before each class run", alwaysRun = true)
     public void loadConfiguration(String browserType) {
         try {
             Log.info("Initialize Selenium web driver before tests' Class");
@@ -108,7 +107,7 @@ public class BaseTest {
             switch (browserType) {
                 case ("Chrome"):
 
-                    WebDriverManager.chromedriver().setup();
+                    //   WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver(setChromeOption());
                     break;
                 case ("Firefox"):
@@ -133,7 +132,7 @@ public class BaseTest {
             driver.manage().window().maximize();
 
             driver.get(generalConfigsProps.getProperty(GeneralConstants.MDD_LOGIN_URL));
-            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+            //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
             Log.info("Selenium webDriver was initialized successfully");
         } catch (Exception e) {
             Log.error("Error occurred while initializing selenium web driver", e);

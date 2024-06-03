@@ -1,0 +1,32 @@
+
+[
+
+  {
+    "testCaseTitle": "Verify that User with the same username already exists message displays when creating a user that already exists",
+    "authenticationMethod": "TOTP",
+    "username": "User4",
+    "fullUserName": "User1",
+    "userEmail": "User1@gmail.com",
+    "selectProfile": "SUPER ADMIN",
+    "expirationDate": "30",
+    "selectAuthenticator": "LSA",
+    "password": "Zxcvbnm@123",
+    "confirmPassword": "Zxcvbnm@123",
+    "expectedMassage": "User with the same username already exists displays"
+
+  },
+
+{
+  "testCaseTitle": "Verify that User with the same username already exists message displays when creating a user that already exists",
+  "authenticationMethod": "TOTP",
+  "username": "User4",
+  "fullUserName": "User1",
+  "userEmail": "User1@gmail.com",
+  "selectProfile": "SUPER ADMIN",
+  "expirationDate": "30",
+  "selectAuthenticator": "LSA",
+  "password": "Zxcvbnm@123",
+  "confirmPassword": "Zxcvbnm@123",
+  "expectedMassage": "User with the same username already exists displays"
+}
+  ]

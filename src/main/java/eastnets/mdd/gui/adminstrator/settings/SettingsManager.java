@@ -66,6 +66,7 @@ public class SettingsManager {
         return Controls.getElementText(driver,ALL_FILTRATION_CRITERIA,5);
     }
     public static void clickReturn(WebDriver driver) {
+
         Controls.clickKeyboardReturn(driver);
     }
 

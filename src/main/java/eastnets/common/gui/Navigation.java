@@ -6,7 +6,7 @@ import core.gui.Controls;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public enum Navigation {
+public enum  Navigation {
 
     DUPLICATES_MANAGER("//span[contains(text(),'Duplicates Manager')]",
             "","//span[contains(text(),'Duplicates Manager')]"),
@@ -15,7 +15,10 @@ public enum Navigation {
             "//span[contains(text(),'Administration')]"),
     ADMINISTRATION_PROFILE("//span[contains(text(),'Administration')]",
             "//span[contains(text(),'Profile')]",
-            "//span[contains(text(),'Administration')]");
+            "//span[contains(text(),'Administration')]"),
+    ADMINISTRATION_USER("//span[contains(text(),'Administration')]",
+                                   "//span[contains(text(),'Users')]",
+                                   "//span[contains(text(),'Administration - Users')]");
 
 
     private static final By LAYOUT_MENU = By.xpath("//ul[@class='layout-menu']");
@@ -32,7 +35,7 @@ public enum Navigation {
         this.subElement = By.xpath(subElement);
     }
 
-    public String navigate(WebDriver driver) {
+    public String navigate(WebDriver driver) throws Exception {
         Controls.performMouseHover(driver, LAYOUT_MENU);
         Wait.waitUntilElementToBeClickable(driver, navigationElement, Wait.ONE_MINUTE_DURATION);
         Controls.scrollIntoViewJS(driver, navigationElement);
@@ -47,7 +50,7 @@ public enum Navigation {
 
         if (driver.findElements(checkLabel).size() == 0)
             return GeneralConstants.FAILED;
-
+        Controls.waitForPageToLoad(driver);
         return GeneralConstants.SUCCESS;
     }
 }

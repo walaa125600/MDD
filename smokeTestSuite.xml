@@ -17,11 +17,8 @@
                     <include name="searchAdminSettings" />
                 </methods>
             </class>-->
-            <class name="eastnets.mdd.ui.AdminProfileTest" >
-                <methods>
-                    <include name="addProfile" />
-                </methods>
-            </class>
+
+            <class name="eastnets.mdd.ui.AdminUserTest" />
 
         </classes>
     </test>
